@@ -31,6 +31,7 @@ function App() {
       <SendERC20 />
       <SendERC721 />
       <Reports />
+      <Notices />
       <Vouchers />
     </>
   );
