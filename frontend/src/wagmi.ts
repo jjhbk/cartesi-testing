@@ -3,6 +3,7 @@ import {
   anvil,
   arbitrum,
   arbitrumGoerli,
+  arbitrumSepolia,
   base,
   baseSepolia,
   mainnet,
@@ -24,6 +25,7 @@ export const config = createConfig({
     optimism,
     base,
     baseSepolia,
+    arbitrumSepolia,
   ],
   connectors: [
     injected(),
